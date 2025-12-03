@@ -1,0 +1,78 @@
+/* ===== BODY ===== */
+body {
+  font-family: Arial, sans-serif;
+  background: #b50000;   /* Red background */
+  color: white;
+  padding-bottom: 40px;
+}
+
+.container {
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theatre-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.hall-photo-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hall-photo {
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.scan-section, .updates-section, .contact-section {
+    margin-top: 25px;
+}
+
+.scan-img {
+    width: 150px;
+    border: 2px solid #000;
+    display: block;
+    margin: auto;
+}
+
+.updates {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.update-img {
+    width: 48%;
+    border: 2px solid #000;
+}
+
+.contact-section p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+}
